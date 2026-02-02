@@ -1,0 +1,100 @@
+header,main,footer{
+    border: 1px solid black;
+    padding: 3%;
+}
+
+@media (min-width:600px ){
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ nav{
+        grid-template-columns: max-content max-content max-content max-content;
+    }
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid silver;
+    aspect-ratio: 1/1;
+    display: block;
+    object-fit: cover;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+.text button{
+    background-color: red;
+}
+main{
+    display: grid;
+    gap: 20px;
+      background-color: black;
+}
+
+.light{
+    background-color: transparent;
+}
+
+footer{
+    background-color: purple;
+}
+header{
+    background-color: purple;
+}
+h1{
+    color:red;
+}
+p{
+    color: red;
+}
+a{
+    color: black
+    ;
+}
+h5{
+    color: blue;
+}
+.card{
+    display: grid;
+    place-items: center;
+}
+.card h1{
+    text-align: center; 
+    color: #6B2F1A;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.hidden{
+    height: 0;
+    margin-left: -100vw;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+}
+nav a,footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.card_car{
+    border: 1px solid black;
+    padding: 3%;
+    scroll-snap-align: center;
+
+
+
+}
+.menubutton{
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+}
